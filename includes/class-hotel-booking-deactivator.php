@@ -30,7 +30,9 @@ class Hotel_Booking_Deactivator {
 	 * @since    1.0.0
 	 */
 	public static function deactivate() {
+			if(!current_user_can("activate_plugins")) return;
 
-	}
+			flush_rewrite_rules();
+ 	}
 
 }
