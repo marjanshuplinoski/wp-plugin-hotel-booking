@@ -33,8 +33,8 @@ class Hotel_Booking_Activator {
 
 		if(!current_user_can('activate_plugins')) return;
 
-		add_option("hotelbooking_posts_per_page",10);
-		add_option("hotelbooking_show_welcome_page",true);
+		add_option("hotel_booking_posts_per_page",10);
+		add_option("hotel_booking_show_welcome_page",true);
 	}
 
 }

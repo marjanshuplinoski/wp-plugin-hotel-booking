@@ -30,5 +30,5 @@ if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {
 	exit;
 }
 
-delete_option("hotelbooking_posts_per_page");
-delete_option("hotelbooking_show_welcome_page");
+delete_option("hotel_booking_posts_per_page");
+delete_option("hotel_booking_show_welcome_page");
